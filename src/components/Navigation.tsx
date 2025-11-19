@@ -22,9 +22,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-24">
           <Link to="/" className="flex items-center group">
-            <span className="text-3xl font-bold tracking-tight transition-all duration-300 group-hover:text-secondary">
-              Send Me Pls
-            </span>
+            <img
+              src="/send-me-pls-log.png"
+              alt="Send Me Pls"
+              className="h-12 w-auto transition-opacity duration-300 group-hover:opacity-90"
+            />
+            <span className="sr-only">Send Me Pls</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -33,11 +36,9 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`relative text-base font-semibold transition-all duration-300 hover:text-secondary ${
-                  isActive(link.path) ? "text-secondary" : ""
-                } after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-secondary after:left-0 after:-bottom-2 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 ${
-                  isActive(link.path) ? "after:scale-x-100" : ""
-                }`}
+                className={`relative text-base font-semibold transition-all duration-300 hover:text-secondary ${isActive(link.path) ? "text-secondary" : ""
+                  } after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-secondary after:left-0 after:-bottom-2 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 ${isActive(link.path) ? "after:scale-x-100" : ""
+                  }`}
               >
                 {link.name}
               </Link>
@@ -61,9 +62,8 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`block py-2 hover:text-secondary transition-colors ${
-                  isActive(link.path) ? "text-secondary" : ""
-                }`}
+                className={`block py-2 hover:text-secondary transition-colors ${isActive(link.path) ? "text-secondary" : ""
+                  }`}
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
