@@ -22,12 +22,9 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-24">
           <Link to="/" className="flex items-center group">
-            <img
-              src="/send-me-pls-log.png"
-              alt="Send Me Pls"
-              className="h-12 w-auto transition-opacity duration-300 group-hover:opacity-90"
-            />
-            <span className="sr-only">Send Me Pls</span>
+            <span className="text-3xl font-bold tracking-tight transition-all duration-300 group-hover:text-secondary">
+              Send Me Pls
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
