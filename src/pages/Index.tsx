@@ -11,7 +11,7 @@ const Index = () => {
     <Layout>
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center bg-gradient-hero text-primary-foreground overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 opacity-20"
           style={{
             backgroundImage: `url(${heroImage})`,
@@ -20,7 +20,7 @@ const Index = () => {
           }}
         />
         <div className="absolute inset-0 bg-gradient-hero opacity-90" />
-        
+
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block mb-6 px-6 py-2 bg-secondary/20 backdrop-blur-sm rounded-full border border-secondary/30">
@@ -34,21 +34,21 @@ const Index = () => {
               You Shop. We Run. You Receive.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-gradient-secondary text-secondary-foreground hover:shadow-glow transition-all duration-300 text-lg px-10 py-7 rounded-xl font-semibold hover:scale-105"
               >
                 Download App Now
               </Button>
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 variant="outline"
                 className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground transition-all duration-300 text-lg px-10 py-7 rounded-xl font-semibold hover:scale-105"
               >
                 Learn More
               </Button>
             </div>
-            
+
             {/* Trust Indicators */}
             <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
               <div className="text-center">
@@ -172,9 +172,9 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
             <div className="order-2 lg:order-1">
-              <img 
-                src={customersImage} 
-                alt="Happy customers" 
+              <img
+                src={customersImage}
+                alt="Happy customers"
                 className="rounded-3xl shadow-premium-lg w-full h-auto object-cover"
               />
             </div>
@@ -187,7 +187,7 @@ const Index = () => {
                 <span className="text-secondary">Across South Africa</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Join our growing community of satisfied customers who save time and money with every order. 
+                Join our growing community of satisfied customers who save time and money with every order.
                 Experience the convenience of having a personal shopper at your fingertips.
               </p>
               <div className="flex items-center gap-2 mb-6">
@@ -196,8 +196,8 @@ const Index = () => {
                 ))}
                 <span className="ml-2 text-2xl font-bold text-foreground">4.9/5.0</span>
               </div>
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-gradient-secondary text-secondary-foreground hover:shadow-glow transition-all duration-300 text-lg px-8 py-6 rounded-xl font-semibold"
               >
                 Start Shopping Now
@@ -250,7 +250,7 @@ const Index = () => {
                 <span className="text-secondary">Shopping on the Go</span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Download our beautifully designed app and enjoy seamless shopping from multiple stores. 
+                Download our beautifully designed app and enjoy seamless shopping from multiple stores.
                 Track your orders in real-time and communicate directly with your Runner.
               </p>
               <div className="space-y-4 mb-8">
@@ -273,17 +273,17 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-gradient-secondary text-secondary-foreground hover:shadow-glow transition-all duration-300 text-lg px-8 py-6 rounded-xl font-semibold"
               >
                 Download Now
               </Button>
             </div>
             <div className="flex justify-center">
-              <img 
-                src={appImage} 
-                alt="App interface" 
+              <img
+                src={appImage}
+                alt="App interface"
                 className="rounded-3xl shadow-premium-lg max-w-md w-full h-auto object-cover"
               />
             </div>
@@ -304,12 +304,12 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Become A Runner</h2>
             <p className="text-2xl mb-8 font-light">Your Needs, Delivered - Fast</p>
             <p className="text-xl mb-10 opacity-90">
-              Our Runners cater to on-demand shopping from multiple stores. 
+              Our Runners cater to on-demand shopping from multiple stores.
               Start earning on your own schedule today!
             </p>
-            <Button 
-              size="lg" 
-              variant="outline" 
+            <Button
+              size="lg"
+              variant="outline"
               className="border-3 border-white text-white bg-transparent hover:bg-white hover:text-secondary transition-all duration-300 text-lg px-10 py-7 rounded-xl font-semibold hover:scale-105"
             >
               Apply Now
